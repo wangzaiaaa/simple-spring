@@ -1,0 +1,20 @@
+package top.zw.ioc.v1;
+
+/**
+ * @author zhangwang
+ * @version 1.0.0
+ * @ClassName BeanDefinition
+ * @createTime 2021年12月08日 21:26:45
+ **/
+public class BeanDefinition {
+
+    private Object bean;
+
+    public BeanDefinition(Object bean){
+        this.bean = bean;
+    }
+
+    public Object getBean() {
+        return bean;
+    }
+}
